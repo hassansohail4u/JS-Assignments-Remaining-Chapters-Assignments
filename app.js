@@ -253,12 +253,174 @@
 // console.log(typeof(enterType))
 
 
-var value_ = +prompt("enter a value");
-if(typeof(value_) == "number"){
-    document.write("the given value is  number");
-}else if(typeof(value_) == "string"){
-    document.write("the given value is  string");
-}else{
-    document.write("the given value is boolean");
-}
+// var value_ = +prompt("enter a value");
+// if(typeof(value_) == "number"){
+//     document.write("the given value is  number");
+// }else if(typeof(value_) == "string"){
+//     document.write("the given value is  string");
+// }else{
+//     document.write("the given value is boolean");
+// }
 
+
+
+// Arrays
+
+
+// Question 1
+
+
+// var array = []
+
+// Question 2
+
+// var array = []
+
+
+// // Question 3
+
+// var fruits = ["Apple" , "Banana" , "Strawberry" , "Orange"]
+// console.log(fruits);
+
+
+// Question 4
+
+
+// var marks = [90 , 79 , 95 , 67 , 88]
+// console.log(marks);
+
+
+// Question 5
+
+
+// var boolean = [true , false]
+// console.log(boolean);
+
+
+
+// Question 6
+
+// var mix = ["Hassan" , 15 , true]
+// console.log(mix);
+
+
+
+// Question 7
+
+
+
+// var networks = ["Jazz" , "Warid" , "Zong" , "Ufone" , "PTCL"]
+// console.log(networks);
+
+
+// Question 8
+
+// var ol = document.querySelector("ol")
+// var qualifications = ["SSC" , "HSC" , "BCS" , "BS" , "BCOM" , "MS" , "M. Phil" , "Phd"] 
+// ol.innerHTML += `<li>${qualifications[0]}</li>`
+// ol.innerHTML += `<li>${qualifications[1]}</li>`
+// ol.innerHTML += `<li>${qualifications[2]}</li>`
+// ol.innerHTML += `<li>${qualifications[3]}</li>`
+// ol.innerHTML += `<li>${qualifications[4]}</li>`
+// ol.innerHTML += `<li>${qualifications[5]}</li>`
+// ol.innerHTML += `<li>${qualifications[6]}</li>`
+// ol.innerHTML += `<li>${qualifications[7]}</li>`
+
+
+// Question 9
+
+// var heading = document.querySelector("#heading")
+// var ol = document.querySelector("ol")
+// var movies = ["Avengers: Age of Ultron" , "Spectre" , "Jurassic World" , "Inside Out"]
+// ol.innerHTML += `<li>${movies[0]}</li>`
+// ol.innerHTML += `<li>${movies[1]}</li>`
+// ol.innerHTML += `<li>${movies[2]}</li>`
+// ol.innerHTML += `<li>${movies[3]}</li>`
+// heading.innerHTML += `Length of the array ${movies.length}`
+
+
+
+// // Question 10
+
+
+// var head = document.querySelector("#head")
+// var car = document.querySelector("#car")
+// var firstIndex = document.querySelector("#first-index")
+// var carsArray = ["Audi" , "Volvo" , "Ford" , "Lamborgini"]
+
+// car.innerHTML = carsArray
+// head.innerHTML += `First index of the array: ${carsArray.indexOf("Audi")}<br>`
+// head.innerHTML += `Car at first index of the array: ${carsArray[0]}<br>`
+// head.innerHTML += `First index of the array: ${carsArray.indexOf("Lamborgini")}<br>`
+// head.innerHTML += `Car at first index of the array: ${carsArray[3]}<br>`
+
+
+ // Question 11
+
+
+//  var names = ["Michael" , "John" , "Tony"]
+//  var marks = [320 , 230 , 480]
+// var h1 = document.querySelector("h1")
+
+// h1.innerHTML += `Score of ${names[0]} is ${marks[0]}. Percentage: ${marks[0] / 500 * 100}% <br>`
+// h1.innerHTML += `Score of ${names[1]} is ${marks[1]}. Percentage: ${marks[1] / 500 * 100}% <br>`
+// h1.innerHTML += `Score of ${names[2]} is ${marks[2]}. Percentage: ${marks[2] / 500 * 100}%`
+
+
+ // Question 12
+
+//  var beginnigColour = prompt("Enter the Colour to add in Beginnig") 
+//  var endColour = prompt("Enter the Colour to add in End")
+//  var onecolourbeginning = prompt("Enter One Colour to add in Beginning")
+//  var secondcolourbeginning = prompt("Enter Second Colour to add in Beginning")
+
+// var colours = []
+// colours.unshift(beginnigColour)
+// colours.push(endColour)
+// colours.unshift(onecolourbeginning)
+// colours.unshift(secondcolourbeginning)
+// colours.shift()
+// colours.pop()
+// console.log(colours);
+
+// var addColourindex = prompt("Enter the Index Number to add Colour")
+//  var addColourEverywhere = prompt("Enter the Colour to put in this Index Number")
+//  colours.splice(addColourindex , 1 , addColourEverywhere); 
+//  console.log(colours);
+
+//  var removeColourIndex = prompt("Enter the Index Number to remove Colour")
+//  var removeColourEverywhere = prompt("Enter the number how many you remove in this Index Number")
+//  colours.splice(removeColourIndex , removeColourEverywhere)
+//  console.log(colours);
+ 
+ 
+ 
+ // Question 13
+
+
+
+// var h1 = document.querySelector("h1")
+// var scores = [320 , 230 , 480 , 120]
+// h1.innerHTML += `Scores of Students${scores}<br>`
+// scores.sort()
+// h1.innerHTML += `Ordered Scores of Students${scores}`
+
+
+ // Question 14
+
+
+//  var orderfruits = document.querySelector("#orderfruits")
+// var fruitshtml = document.querySelector("#fruitshtml")
+//  var fruits = ["strawbery" , "apple" , "orange" , "banana"]
+//  fruitshtml.innerHTML += fruits
+
+
+//  fruits.sort()
+//  orderfruits.innerHTML = fruits
+
+
+ // Question 15
+
+
+
+ 
